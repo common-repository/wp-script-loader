@@ -1,0 +1,15 @@
+#script_files_container .single_file{display: block; padding: 20px; border-bottom: 1px solid #ddd;}
+#script_files_container .single_file label{display: block;}
+
+
+.script_files_table{width: 100%; border: 1px solid #ddd;}
+.script_files_table tr td, .script_files_table tr th{padding: 10px; border: 1px solid #ddd;}
+.script_files_table tr th{background-color: #ebebeb;}
+
+
+.single_file > label{ min-height: 40px; padding: 10px;}
+.single_file > label:nth-child(even){background-color: #ebebeb; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+.single_file > label > span, .single_file > label > input{display: inline-block;}
+.single_file > label > span{min-width: 300px;}
+
+.no-result td{text-align: center;}
